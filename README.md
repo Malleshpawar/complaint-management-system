@@ -51,3 +51,27 @@ To set up the project locally, follow these steps:
 5. **Run the Project**:
     - Place the project folder in the `htdocs` directory of your XAMPP installation.
     - Open your web browser and navigate to `http://localhost/complaint-management-system/`.
+
+
+
+
+!!!! Customer
+
+1. **Register**: Create a new account by providing basic information.
+2. **Login**: Use your credentials to log in.
+3. **Submit Complaint**: Fill out the complaint form with necessary details.
+4. **Track Complaint**: View the status and updates on your complaints.
+
+!!!!!!! Admin
+
+1. **Login**: Use admin credentials to log in.
+2. **Manage Complaints**: View and update the status of complaints.
+3. **Respond to Complaints**: Add responses and communicate with customers.
+
+!!!! Database Schema
+
+Here is a brief overview of the database schema:
+
+- **Users**: Stores customer and admin details.
+- **Complaints**: Stores complaint details, including status and timestamps.
+- **Responses**: Stores responses from admin to customer complaints.
